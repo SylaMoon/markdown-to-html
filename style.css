@@ -1,5 +1,33 @@
+
 html {
-    font-size: 190px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-  }
-  
+        background-color: rgba(250, 249, 255, 1);
+      }
+      
+body { text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        background-color: rgba(217, 215, 255, 1);
+        padding: 0 20px 20px 20px;
+        border: 5px solid; color: hsla(239, 100, 59, 1);
+     
+    }
+      
+      h1 {
+        margin: 0;
+        padding: 20px 0;
+        color: rgba(255, 253, 121, 1); /* Color Theme Swatches in Hex */
+        text-shadow: 3px 3px 1px rgb(245, 244, 244);
+        font-size: 60px;
+        text-align: center;
+      }
+      
+      p,
+      li {
+        font-size: 16px;
+        line-height: 2;
+        letter-spacing: 1px;
+      }
+      
+      
