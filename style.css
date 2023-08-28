@@ -1,20 +1,35 @@
 
-html {
+html head {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
         background-color: rgba(250, 249, 255, 1);
       }
       
-body { text-align: center;
+
+    body,
+    h1{ color:blue; font-size:72pt;
+      text-align: center;
         width: 600px;
         margin: 0 auto;
-        background-color: rgba(217, 215, 255, 1);
-        padding: 0 20px 20px 20px;
-        border: 5px solid; color: hsla(239, 100, 59, 1);
+      }
+
+      body,
+      th{ color:blue; font-size:72pt;
+        text-align: center;
+          width: 600px;
+          margin: 0 auto;
      
-    }
-      
-      h1 {
+        }
+        body,
+        tbody,
+        td{ color:blue; font-size:72pt;
+          text-align: center;
+            width: 600px;
+            margin: 0 auto;
+       
+          }
+      body,
+      h2 {
         margin: 0;
         padding: 20px 0;
         color: rgba(255, 253, 121, 1); /* Color Theme Swatches in Hex */
@@ -22,12 +37,40 @@ body { text-align: center;
         font-size: 60px;
         text-align: center;
       }
-      
+      body,
       p,
-      li {
-        font-size: 16px;
+      em {  font-size: 16px;
         line-height: 2;
         letter-spacing: 1px;
       }
       
+      body,
+      h4 {
+        
+          font-size: 16px;
+          line-height: 2;
+          letter-spacing: 1px;
+          background-color: rgb(72, 65, 209);
+        padding: 0 20px 20px 20px;
+        border: 5px solid; color: hsla(239, 100, 59, 1);
+      }
       
+      body,
+      ul,
+      li {font-size: 16px;
+        line-height: 2;
+        letter-spacing: 1px;
+        background-color: rgb(72, 65, 209);
+      padding: 0 20px 20px 20px;
+      border: 5px solid; color: hsla(239, 100, 59, 1);
+      }
+      body,
+      h4 {
+        
+          font-size: 16px;
+          line-height: 2;
+          letter-spacing: 1px;
+          background-color: rgb(72, 65, 209);
+        padding: 0 20px 20px 20px;
+        border: 5px solid; color: hsla(239, 100, 59, 1);
+      }
